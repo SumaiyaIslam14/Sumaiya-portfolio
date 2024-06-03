@@ -329,6 +329,24 @@ img {
   background-color: var(--first-color-alt);
 }
 
+.button2{
+  display: inline-flex;
+  justify-content: center;
+  background-color: var(--first-color);
+  color: var(--title-color);
+  font-weight: var(--font-semi-bold);
+  padding: .5rem 2rem;
+  transition: background-color .4s;
+}
+
+.button2:hover{
+  background-color: var(--first-color-alt);
+}
+
+hr{
+ border-color: rgb(59, 18, 99);
+}
+
 /* works */
 .git:hover{
   color: aquamarine;

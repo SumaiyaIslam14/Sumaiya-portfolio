@@ -17,7 +17,7 @@ if(navClose){
         })
 }
 
-/*=============== REMOVE MENU MOBILE ===============*/
+/*REMOVE MENU MOBILE*/
 const navLink = document.querySelectorAll('.nav__link')
 
 const linkAction = () =>{
@@ -26,7 +26,7 @@ const linkAction = () =>{
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
-/*=============== ADD BLUR HEADER ===============*/
+/*ADD BLUR HEADER*/
 const blurHeader = () =>{
     const header = document.getElementById('header')
     this.scrollY >= 50 ? header.classList.add('blur-header') 
@@ -34,14 +34,14 @@ const blurHeader = () =>{
 }
 window.addEventListener('scroll', blurHeader)
 
-/*=============== EMAIL JS ===============*/
+/*EMAIL JS*/
 const contactForm = document.getElementById('contact-form'),
     contactMessage = document.getElementById('contact-message')
 
 const sendEmail = (e) =>{
     e.preventDefault()
     // serviceid-templateid-#form-publickey
-    emailjs.sendEmail('service_39nk0ds','template_dm3wi6d','#contact-form','7gsEmGHIdcUpGbXuI')
+    emailjs.sendEmail('service_papy766','template_dm3wi6d','#contact-form','7gsEmGHIdcUpGbXuI')
     .then(() =>{
         // show sent message
         contactMessage.textContent = 'Message sent successfully'
