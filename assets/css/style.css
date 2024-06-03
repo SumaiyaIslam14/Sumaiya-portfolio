@@ -341,6 +341,7 @@ img {
 
 .button2:hover{
   background-color: var(--first-color-alt);
+  
 }
 
 hr{
@@ -440,6 +441,9 @@ hr{
 }
 
 .about__button{
+  width: 100%;
+}
+.about__button2{
   width: 100%;
 }
 /* EXPERIENCE */
