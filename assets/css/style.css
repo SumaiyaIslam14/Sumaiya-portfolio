@@ -344,7 +344,7 @@ img {
 }
 
 hr{
- border-color: rgb(59, 18, 99);
+ border-color: rgb(70, 30, 110);
 }
 
 /* works */
@@ -749,6 +749,15 @@ hr{
   }
   .about__button{
     width: initial;
+  }
+
+  .about__button2{
+    width: initial;
+    font-size: medium;
+    text-align: center;
+  }
+  hr{
+    width: 59%;
   }
 
   .experience__content{
